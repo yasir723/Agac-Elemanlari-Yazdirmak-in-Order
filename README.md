@@ -21,3 +21,17 @@ class tree
 - `left`: Düğüme bağlı olan sol alt düğümü belirtir.
 
 ## `yazdır` Metodu
+```csharp
+static void yazdir(tree node) // biz genelde pre order olarak yazdırıyoruz
+{
+    if (node == null) return;
+
+    Console.WriteLine(node.value);
+    yazdir(node.left);
+    yazdir(node.right);
+}
+```
+
+## Parametreler
+
+- `node`: Ağaçtaki mevcut düğüm.
