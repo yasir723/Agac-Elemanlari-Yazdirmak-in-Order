@@ -35,3 +35,16 @@ static void yazdir(tree node)
 ## Parametreler
 
 - `node`: Ağaçtaki mevcut düğüm.
+
+## İşleyiş
+1. İlk olarak gönderilen ağaç null ise, null döndürülür.
+2. Null değilse, sol tarafına gitmeye başlanır.
+3. Null düğüme ulaşana kadar sola gitmeye devam edilir.
+4. bu durumda ağacın en küçük elemanına ulaşmış olduk.
+5. bu aşamada yazdırma işlemi başlayacak ve en küçük elemanı yazdırdıktan sonra sağ gidilir.
+6. sağ düğümü varsa ona gidilir ve ardından en sola yine gidilmeye başlanır.
+7. // anlatamadım ):
+8. Kök düğümün sol tarafı tamamlandıktan sonra kök düğümün sağ tarafına gidilir ve aynı işlem tekrarlanır.
+
+
+
