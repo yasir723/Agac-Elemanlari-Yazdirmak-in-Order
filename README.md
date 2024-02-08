@@ -22,12 +22,12 @@ class tree
 
 ## `yazdır` Metodu
 ```csharp
-static void yazdir(tree node) // biz genelde pre order olarak yazdırıyoruz
+static void yazdir(tree node)
 {
     if (node == null) return;
 
-    Console.WriteLine(node.value);
     yazdir(node.left);
+    Console.WriteLine(node.value);
     yazdir(node.right);
 }
 ```
