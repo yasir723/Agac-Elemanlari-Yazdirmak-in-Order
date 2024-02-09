@@ -53,7 +53,7 @@ static void yazdir(tree node)
 10. Böylece aynı işlem devam edilir.
 
 <div align="center">
-    <h3>Binary Ağaç Elemanları Pre-Order Yazdırma Aşamaları</h3>
+    <h3>Binary Ağaç Elemanları In-Order Yazdırma Aşamaları</h3>
 </div>
 
 [![Yazdırma Adımları](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/69b40cce-02df-45f7-8453-da0bc03731d7)](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/69b40cce-02df-45f7-8453-da0bc03731d7)
