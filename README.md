@@ -47,8 +47,15 @@ static void yazdir(tree node)
 4. Bu durumda `ağacın en küçük` elemanına ulaşılmış olur.
 5. En küçük elemanı yazdırdıktan sonra sağ düğüm varsa ona gidilir ve tekrar en sola gidilir.
 6. Null bir düğümle karşılaşıldığında durulur ve o düğümün değeri yazdırılır.
-7. Bu işlem kökün sol tarafını bitirdikten sonra kökün sağ tarafına geçilir.
-8. Kökün sağ tarafına ilk gidildiğinde aynı işlem uygulanır; kökün sağ düğümünün en soluna gidilir ve değer yazdırılır.
-9. Böylece aynı işlem devam edilir.
+7. Düğümün değeri yazdırıldıktan sonra yine sağ düğümlerini kontrol edilir varsa bir defa sağ gidilir ve sola gidimeye başlanır, sağ düğüm yoksa bir önceki düğüme gidilir. 
+8. Bu işlem kökün sol tarafını bitirdikten sonra kökün derğeri yazdırılır ardından kökün sağ tarafına geçilir.
+9. Kökün sağ tarafına ilk gidildiğinde aynı işlem uygulanır; kökün sağ düğümünün en soluna gidilir ve değer yazdırılır.
+10. Böylece aynı işlem devam edilir.
+
+<div align="center">
+    <h3>Binary Ağaç Elemanları Pre-Order Yazdırma Aşamaları</h3>
+</div>
+
+[![Yazdırma Adımları](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/69b40cce-02df-45f7-8453-da0bc03731d7)](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/69b40cce-02df-45f7-8453-da0bc03731d7)
 
 
