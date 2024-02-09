@@ -36,6 +36,10 @@ static void yazdir(tree node)
 
 - `node`: Ağaçtaki mevcut düğüm.
 
+## Avantaj
+
+- Ağaçtaki elemanlar `küçükten büyüğe` sıralanmış şekilde yazdırmayı sağlar.
+
 ## İşleyiş
 1. İlk olarak gönderilen ağaç null ise, null döndürülür.
 2. Null değilse, sola gitmeye başlanır.
