@@ -60,5 +60,15 @@ static void yazdir(tree node)
 
 ## Not
 
-- Ağaçtaki elemanlar `küçükten büyüğe` doğru sıralanmış şekilde yazdırdığımız gibi eğer önce node.right ardından yazdırma komutu ve ondan sonra node.left yazsaydık bu durumda `büyükten küçüğe` doğru sıralanmış şekilde yazdırılacaktır.
+- Ağaçtaki elemanlar `küçükten büyüğe` doğru sıralanmış şekilde yazdırdığımız gibi eğer `aşağıdaki kod` gibi önce node.right ardından yazdırma komutu ve ondan sonra node.left yazsaydık bu durumda `büyükten küçüğe` doğru sıralanmış şekilde yazdırılacaktır.
 
+```csharp
+static void yazdir(tree node)
+{
+    if (node == null) return;
+
+    yazdir(node.right);
+    Console.WriteLine(node.value);
+    yazdir(node.left);
+}
+```
