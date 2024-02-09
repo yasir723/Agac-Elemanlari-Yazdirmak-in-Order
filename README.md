@@ -38,7 +38,7 @@ static void yazdir(tree node)
 
 ## Avantaj
 
-- Ağaçtaki elemanlar `küçükten büyüğe` sıralanmış şekilde yazdırmayı sağlar.
+- Ağaçtaki elemanlar `küçükten büyüğe` doğru sıralanmış şekilde yazdırmayı sağlar.
 
 ## İşleyiş
 1. İlk olarak gönderilen ağaç null ise, null döndürülür.
