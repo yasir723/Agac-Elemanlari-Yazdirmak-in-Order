@@ -58,4 +58,7 @@ static void yazdir(tree node)
 
 [![Yazdırma Adımları](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/69b40cce-02df-45f7-8453-da0bc03731d7)](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/69b40cce-02df-45f7-8453-da0bc03731d7)
 
+## Not
+
+- Ağaçtaki elemanlar `küçükten büyüğe` doğru sıralanmış şekilde yazdırdığımız gibi eğer önce node.right ardından yazdırma komutu ve ondan sonra node.left yazsaydık bu durumda `büyükten küçüğe` doğru sıralanmış şekilde yazdırılacaktır.
 
