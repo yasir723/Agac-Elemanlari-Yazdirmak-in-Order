@@ -45,6 +45,6 @@ static void yazdir(tree node)
 6. Null bir düğümle karşılaşıldığında durulur ve o düğümün değeri yazdırılır.
 7. Bu işlem kökün sol tarafını bitirdikten sonra kökün sağ tarafına geçilir.
 8. Kökün sağ tarafına ilk gidildiğinde aynı işlem uygulanır; kökün sağ düğümünün en soluna gidilir ve değer yazdırılır.
-
+9. Böylece aynı işlem devam edilir.
 
 
