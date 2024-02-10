@@ -22,13 +22,13 @@ class tree
 
 ## `yazdır` Metodu
 ```csharp
-static void yazdir(tree node)
+static void yazdır(tree node)
 {
     if (node == null) return;
 
-    yazdir(node.left);
+    yazdır(node.left);
     Console.WriteLine(node.value);
-    yazdir(node.right);
+    yazdır(node.right);
 }
 ```
 
@@ -63,12 +63,12 @@ static void yazdir(tree node)
 Ağaçtaki elemanlar `küçükten büyüğe` doğru sıralanmış şekilde yazdırdığımız gibi eğer `aşağıdaki metodu` gibi önce node.right ardından yazdırma komutu ve ondan sonra node.left yazsaydık bu durumda `büyükten küçüğe` doğru sıralanmış şekilde yazdırılacaktır.
 
 ```csharp
-static void yazdir(tree node)
+static void yazdır(tree node)
 {
     if (node == null) return;
 
-    yazdir(node.right);
+    yazdır(node.right);
     Console.WriteLine(node.value);
-    yazdir(node.left);
+    yazdır(node.left);
 }
 ```
