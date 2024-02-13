@@ -56,7 +56,7 @@ static void yazdır(tree node)
     <h3>Binary Ağaç Elemanları In-Order Yazdırma Aşamaları</h3>
 </div>
 
-[![Yazdırma Adımları](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/69b40cce-02df-45f7-8453-da0bc03731d7)](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/69b40cce-02df-45f7-8453-da0bc03731d7)
+[![Yazdırma Adımları](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/b99eb27f-0a9f-44a7-8ca5-0dea2a3df7b1)](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/0aebada8-70f8-45b4-b07c-214af1f8e441)
 ## Ek Not
 
 Ağaçtaki elemanlar `küçükten büyüğe` doğru sıralanmış şekilde yazdırdığımız gibi eğer `aşağıdaki metodu` gibi önce node.right ardından yazdırma komutu ve ondan sonra node.left yazsaydık bu durumda `büyükten küçüğe` doğru sıralanmış şekilde yazdırılacaktır.
